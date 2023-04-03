@@ -4,6 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "typeof": "nodemon ./js/typeof.js",
+    "array": "nodemon ./js/array.js",
+    "string": "nodemon ./js/string.js",
     "dev": "nodemon",
     "test": "echo \"Error: no test specified\" && exit 1"
   },

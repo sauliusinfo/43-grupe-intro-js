@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "kint": "nodemon ./js-mini-uzduotys/kint.js",
     "typeof": "nodemon ./js/typeof.js",
     "array": "nodemon ./js/array.js",
     "string": "nodemon ./js/string.js",

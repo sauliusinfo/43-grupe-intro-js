@@ -61,8 +61,9 @@ console.log(textTransformer);
 
 console.clear();
 console.log(':: Kintamųjų palyginimas ::');
-// Lyginant, jei rezultatas tenkina palyginimo sąlygą, tai į console išvesti žodį “Pomidoras”, o jei sąlyga nėra tenkinama, išvesti sakinį “Bandykite kitą kartą.”.
-
+// Lyginant, jei rezultatas tenkina palyginimo sąlygą, tai į console išvesti žodį “Pomidoras”, 
+// o jei sąlyga nėra tenkinama, išvesti sakinį “Bandykite kitą kartą.”.
+//
 // 1. Tarpusavyje palyginti skaičiaus tipo kintamuosius:
 //      a. kuris didesnis
 //      b. kuris mažesnis
@@ -86,3 +87,137 @@ console.log(':: Kintamųjų palyginimas ::');
 //      d. ar jie nelygūs
 //      e. kuris didesnis arba lygus
 //      f. kuris mažesnis arba lygus
+
+console.log('-- 1.a. --');
+if (x > z) {
+    console.log('Pomidoras.');
+} else {
+    console.log('Bandykite dar kartą.');
+}
+
+console.log('-- 1.b. --');
+if (x < z) {
+    console.log('Pomidoras.');
+} else {
+    console.log('Bandykite dar kartą.');
+}
+
+console.log('-- 1.c. --');
+if (x == z) {
+    console.log('Pomidoras.');
+} else {
+    console.log('Bandykite dar kartą.');
+}
+
+console.log('-- 1.d. --');
+if (x !== z) {
+    console.log('Pomidoras.');
+} else {
+    console.log('Bandykite dar kartą.');
+}
+
+console.log('-- 1.e. --');
+if (x >= z) {
+    console.log('Pomidoras.');
+} else {
+    console.log('Bandykite dar kartą.');
+}
+
+console.log('-- 1.f. --');
+if (x <= z) {
+    console.log('Pomidoras.');
+} else {
+    console.log('Bandykite dar kartą.');
+}
+
+console.log('-- 2. --');
+console.log(`x1= ${x1.length}; y1= ${y1.length}; z1= ${z1.length}`);
+
+console.log('-- 3.a. --');
+if (x1.length > z.length) {
+    console.log('Pomidoras.');
+} else {
+    console.log('Bandykite dar kartą.');
+}
+
+console.log('-- 3.b. --');
+if (x.length < z.length) {
+    console.log('Pomidoras.');
+} else {
+    console.log('Bandykite dar kartą.');
+}
+
+console.log('-- 3.c. --');
+if (x.length == z.length) {
+    console.log('Pomidoras.');
+} else {
+    console.log('Bandykite dar kartą.');
+}
+
+console.log('-- 3.d. --');
+if (x.length !== z.length) {
+    console.log('Pomidoras.');
+} else {
+    console.log('Bandykite dar kartą.');
+}
+
+console.log('-- 3.e. --');
+if (x.length >= z.length) {
+    console.log('Pomidoras.');
+} else {
+    console.log('Bandykite dar kartą.');
+}
+
+console.log('-- 3.f. --');
+if (x <= z) {
+    console.log('Pomidoras.');
+} else {
+    console.log('Bandykite dar kartą.');
+}
+
+console.log('-- 4. --');
+console.log(`list11: ${list11[0].length}, ${list11[1].length}, ${list11[3].length}, ${list11[4].length} 
+list22: ${list22[0].length}, ${list22[1].length}, ${list22[3].length}, ${list22[4].length} 
+list33: ${list33[0].length}, ${list33[1].length}, ${list33[3].length}, ${list33[4].length}`);
+
+console.log('-- 5.a. --');
+if (list11[0].length > list33[0].length) {
+    console.log('Pomidoras.');
+} else {
+    console.log('Bandykite dar kartą.');
+}
+
+console.log('-- 5.b. --');
+if (list11[0].length < list33[0].length) {
+    console.log('Pomidoras.');
+} else {
+    console.log('Bandykite dar kartą.');
+}
+
+console.log('-- 5.c. --');
+if (list11[0].length == list33[0].length) {
+    console.log('Pomidoras.');
+} else {
+    console.log('Bandykite dar kartą.');
+}
+
+console.log('-- 5.d. --');
+if (list11[0].length !== list33[0].length) {
+    console.log('Pomidoras.');
+} else {
+    console.log('Bandykite dar kartą.');
+}
+
+console.log('-- 5.e. --');
+if (list11[0].length >= list33[0].length) {
+    console.log('Pomidoras.');
+} else {
+    console.log('Bandykite dar kartą.');
+}
+
+console.log('-- 5.f. --');
+if (list11[0].length <= list33[0].length) {
+    console.log('Pomidoras.');
+} else {
+    console.log('Bandykite dar kartą.');
+}

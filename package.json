@@ -4,6 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "funkc": "nodemon ./js-mini-uzduotys/funkc.js",
+    "ciklai": "nodemon ./js-mini-uzduotys/ciklai.js",
     "kint": "nodemon ./js-mini-uzduotys/kint.js",
     "typeof": "nodemon ./js/typeof.js",
     "array": "nodemon ./js/array.js",

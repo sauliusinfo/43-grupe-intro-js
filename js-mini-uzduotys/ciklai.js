@@ -75,10 +75,9 @@ const reversedText = text.split('').reverse().join('');
 console.log(`kitas budas: ${text} -> ${reversedText}`);
 
 console.log('-- 3.a.-d. --');
-
 // const iStart=0; iStop=11;
-// const iStart=8; iStop=31;
-const iStart=-18; iStop=18;
+const iStart=8; iStop=31;
+//const iStart=-18; iStop=18;
 
 const sk3=3; const sk5=5; const sk7=7;
 let g3=0; let g5=0; let g7=0;

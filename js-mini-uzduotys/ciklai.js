@@ -74,4 +74,27 @@ console.log(`${text} -> ${textR}`);
 const reversedText = text.split('').reverse().join('');
 console.log(`kitas budas: ${text} -> ${reversedText}`);
 
-console.log('-- 3. --');
+console.log('-- 3.a.-d. --');
+
+// const iStart=0; iStop=11;
+// const iStart=8; iStop=31;
+const iStart=-18; iStop=18;
+
+const sk3=3; const sk5=5; const sk7=7;
+let g3=0; let g5=0; let g7=0;
+
+for (i=iStart; i<=iStop; i++) {
+    console.log(i, ' -> ' + i%3);
+    if (i%sk3 == 0 ) {
+        g3++;
+    }
+    if (i%sk5 == 0) {
+        g5++;
+    }
+    if (i%sk7 == 0) {
+        g7++;
+    }
+}
+console.log(`Skaičių intervale tarp ${iStart} ir ${iStop}, besidalijančių be liekanos iš ${sk3} yra ${g3} vienetai.`);
+console.log(`Skaičių intervale tarp ${iStart} ir ${iStop}, besidalijančių be liekanos iš ${sk5} yra ${g5} vienetai.`);
+console.log(`Skaičių intervale tarp ${iStart} ir ${iStop}, besidalijančių be liekanos iš ${sk7} yra ${g7} vienetai.`);

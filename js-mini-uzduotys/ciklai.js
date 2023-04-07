@@ -63,11 +63,15 @@ for (let i=-70; i<=50; i++) {
 console.log(`sumaF yra = ${sumaF}`);
 
 console.log('-- 2. --');
-const text = 'abcdef';
-const reversedText = text.split('').reverse().join('');
-for (let i = 0; i < reversedText.length; i++) {
-  //console.log(i + '->' + reversedText[i]);
+let text = 'abcdef';
+let textR = '';
+for (let i=text.length -1; i>=0; i--) {
+    textR += text[i];
+    // console.log(textR);
 }
-console.log(`${text} -> ${reversedText}`);
+console.log(`${text} -> ${textR}`);
+
+const reversedText = text.split('').reverse().join('');
+console.log(`kitas budas: ${text} -> ${reversedText}`);
 
 console.log('-- 3. --');

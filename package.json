@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "funk": "nodemon ./js-mini-uzduotys/funk.js",
+    "funk123": "nodemon ./js-mini-uzduotys/funk123.js",
     "ciklai": "nodemon ./js-mini-uzduotys/ciklai.js",
     "kint": "nodemon ./js-mini-uzduotys/kint.js",
     "typeof": "nodemon ./js/typeof.js",

@@ -64,8 +64,7 @@ function skaitmenuKiekisSkaiciuje(a) {
     if (typeof a !== 'number' || isNaN(a)) {
         g = `Pateikta netinkamo tipo reikšmė.`;
     } else {
-        g = a.toString().length;
-        
+        g = a.toString().length;   
     }
     return g;
 }
@@ -75,5 +74,3 @@ console.log(skaitmenuKiekisSkaiciuje(37060123456));
 console.log(skaitmenuKiekisSkaiciuje(true));
 console.log(skaitmenuKiekisSkaiciuje("asd"));
 console.log(skaitmenuKiekisSkaiciuje(NaN));
-
-// 4. 

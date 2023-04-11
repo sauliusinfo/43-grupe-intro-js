@@ -8,17 +8,6 @@ console.log(':: Ciklo for panaudojimas ::');
 //      d. 574 … 815
 //      e. -50 … 50
 //      f. -70 … 30
-// 2. panaudojant ciklą perrašyti tekstinio tipo kintamųjų reikšmes iš kito galo:
-//      a. pvz.: “abcdef” -> “fedcba”
-// 3. Suskaičiuoti, kiek nurodytame intervale yra skaičių, kurie dalijasi be liekanos iš 3, 5 ir 7 atskirai:
-//      a. 0 - 11
-//      b. 8 - 31
-//      c. -18 - 18
-//      d. rezultatą pateikti tokiu formatu:
-//          i. Skaičių intervale tarp 0 ir 11, besidalijančių be liekanos iš 3 yra 4 vienetai.
-//         ii. Skaičių intervale tarp 0 ir 11, besidalijančių be liekanos iš 5 yra 3 vienetai.
-//        iii. Skaičių intervale tarp 0 ir 11, besidalijančių be liekanos iš 7 yra 2 vienetai.
-
 console.log('-- 1.a. --');
 let sumaA = 0;
 for (let i=0; i<=0; i++) {
@@ -62,6 +51,8 @@ for (let i=-70; i<=50; i++) {
 }
 console.log(`sumaF yra = ${sumaF}`);
 
+// 2. panaudojant ciklą perrašyti tekstinio tipo kintamųjų reikšmes iš kito galo:
+//      a. pvz.: “abcdef” -> “fedcba”
 console.log('-- 2. --');
 let text = 'abcdef';
 let textR = '';
@@ -71,9 +62,23 @@ for (let i=text.length -1; i>=0; i--) {
 }
 console.log(`${text} -> ${textR}`);
 
-const reversedText = text.split('').reverse().join('');
-console.log(`kitas budas: ${text} -> ${reversedText}`);
+// const reversedText = text.split('').reverse().join('');
+// console.log(`kitas budas: ${text} -> ${reversedText}`);
 
+function reverseStr(str) {
+    str = str.split('').reverse().join('');
+    return str;
+}
+console.log(`Kitas budas: ${reverseStr(text)}`);
+
+// 3. Suskaičiuoti, kiek nurodytame intervale yra skaičių, kurie dalijasi be liekanos iš 3, 5 ir 7 atskirai:
+//      a. 0 - 11
+//      b. 8 - 31
+//      c. -18 - 18
+//      d. rezultatą pateikti tokiu formatu:
+//          i. Skaičių intervale tarp 0 ir 11, besidalijančių be liekanos iš 3 yra 4 vienetai.
+//         ii. Skaičių intervale tarp 0 ir 11, besidalijančių be liekanos iš 5 yra 3 vienetai.
+//        iii. Skaičių intervale tarp 0 ir 11, besidalijančių be liekanos iš 7 yra 2 vienetai.
 console.log('-- 3.a.-d. --');
 // const iStart=0; iStop=11;
 const iStart=8; iStop=31;

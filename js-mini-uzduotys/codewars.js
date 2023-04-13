@@ -11,11 +11,14 @@ console.log('-2-'); // -2-
 let count=0;
 function countSheeps(arrayOfSheep) {
     // TODO May the force be with you
-    for (i=0; i<arrayOfSheep.length; i++) {
+    for (let i=0; i<arrayOfSheep.length; i++) {
         // console.log('-> ' + arrayOfSheep[i]);
-        arrayOfSheep[i] === true ? count += arrayOfSheep[i] : '';
+        if (arrayOfSheep[i] === true) {
+            count++;
+        }
     }
     return count;
 }
-let arrayOfSheep = [true, false, true, true, false];
+let arrayOfSheep = [ 'null', null, undefined, true, true, true, false, true, true, true, true, '1', '0', 1, 0,
+                    false, null, undefined, 0, NaN, " "];
 console.log(countSheeps(arrayOfSheep));

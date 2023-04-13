@@ -9,6 +9,7 @@
     "funk123": "nodemon ./js-mini-uzduotys/funk123.js",
     "ciklai": "nodemon ./js-mini-uzduotys/ciklai.js",
     "kint": "nodemon ./js-mini-uzduotys/kint.js",
+    "loop": "nodemon ./js/loop.js",
     "arrow": "nodemon ./js/arrow.js",
     "typeof": "nodemon ./js/typeof.js",
     "array": "nodemon ./js/array.js",

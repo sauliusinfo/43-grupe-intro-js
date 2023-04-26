@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "dev2": "dead-server --host=localhost --port=43000",
     "codewars": "nodemon ./js-mini-uzduotys/codewars.js",
     "funk4": "nodemon ./js-mini-uzduotys/funk4.js",
     "funk123": "nodemon ./js-mini-uzduotys/funk123.js",

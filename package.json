@@ -22,6 +22,7 @@
   "author": "sauliusinfo (https://github.com/sauliusinfo)",
   "license": "MIT",
   "devDependencies": {
+    "dead-server": "^1.0.9",
     "nodemon": "^2.0.22"
   }
 }

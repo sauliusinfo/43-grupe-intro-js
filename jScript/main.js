@@ -11,12 +11,12 @@ const screenDOM = appDOM.querySelector('.screen');
 const eventHistory = [];
 let sum = 0;
 
-function padydinti() {
+function didinti() {
     ++sum;
     printEventHistory(1);
 }
 
-function sumazinti() {
+function mazinti() {
     --sum;
     printEventHistory(-1);
 }
@@ -35,7 +35,7 @@ function printEventHistory(eventID) {
         switch (event) {
             case 1:
                 tempSum++;
-                HTML = `<p>Padydinta: +1 (${tempSum})</p>` + HTML;
+                HTML = `<p>padidinta: +1 (${tempSum})</p>` + HTML;
                 break;
             case -1:
                 tempSum--;
@@ -52,6 +52,6 @@ function printEventHistory(eventID) {
     listDOM.innerHTML = HTML;
 }
 
-plusDOM.addEventListener('click', padydinti);
-minusDOM.addEventListener('click', sumazinti);
+plusDOM.addEventListener('click', didinti);
+minusDOM.addEventListener('click', mazinti);
 resetDOM.addEventListener('click', reset);

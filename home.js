@@ -14,5 +14,15 @@ const y = minus(12,9);
 console.log(y);
 
 
+// print in html
+const resultSum = document.querySelector('.result1');
+const resultMinus = document.querySelector('.result2');
 
-// document.write('<p>The sum of 3 and 7 is: ' + x + '</p>');
+let HTML1 = '', HTML2 = '';
+
+HTML1 = `<p>Suma yra: ${x}</p>`;
+HTML2 = `<p>Minus yra: ${y}</p>`;
+
+// console.log(resultSum.innerHTML);
+resultSum.innerHTML = HTML1;
+resultMinus.innerHTML = HTML2;
